@@ -1,2 +1,2 @@
 # Assasins-Creed-Syndicate
-A sleek, responsive web project inspired by Assassin's Creed Syndicate, featuring the gritty atmosphere of Victorian London and the Frye twins.
+Assassin's Creed Syndicate Fan Website is a responsive web application designed to capture the industrial, Victorian-era aesthetic of 1868 London. Built with HTML, CSS, and JavaScript, this project showcases character profiles, interactive features, and dynamic UI elements inspired by the game.
