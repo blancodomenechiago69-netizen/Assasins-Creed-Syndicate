@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secretos del credo</title>
+  <link rel="icon" type="image/png" href="Imagenes/icono.png"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<div id="hero">
+  <div class="fog-layer"></div>
+  <div class="city-silhouette"></div>
+
+  <div class="hero-content">
+    <!-- Emblema del Credo -->
+    <svg class="hero-eagle" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"
+         aria-label="Emblema del Credo Asesino">
+      <path d="M40 8 L48 28 L68 22 L54 38 L72 46 L52 48 L50 68 L40 52 L30 68 L28 48 L8 46 L26 38 L12 22 L32 28 Z"
+            fill="none" stroke="#c8973a" stroke-width="1.2"/>
+      <path d="M40 15 L40 65 M25 30 L40 15 L55 30" stroke="#c8973a" stroke-width="1" fill="none"/>
+      <circle cx="40" cy="40" r="6" fill="none" stroke="#c8973a" stroke-width="1"/>
+      <path d="M20 45 Q30 35 40 40 Q50 35 60 45" fill="none" stroke="#c8973a" stroke-width="1"/>
+    </svg>
+
+    <div class="hero-eyeline"></div>
+    <h1 class="hero-title">SECRETOS DEL CREDO</h1>
+    <p class="hero-subtitle">Londres &nbsp;·&nbsp; 1868</p>
+
+    <div class="hero-divider">
+      <span></span>
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+        <rect x="6" y="1" width="4" height="14" fill="#c8973a" opacity="0.6" transform="rotate(45 8 8)"/>
+        <rect x="1" y="6" width="14" height="4" fill="#c8973a" opacity="0.6" transform="rotate(45 8 8)"/>
+      </svg>
+      <span></span>
+    </div>
+
+    <p class="hero-tagline">Nada es Verdad &nbsp;·&nbsp; Todo está Permitido</p>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">
+    <span>Descubre</span>
+    <div class="scroll-line"></div>
+  </div>
+</div>
+
+
+<!-- ============================================================
+     NAVEGACIÓN
+============================================================ -->
+<nav>
+  <div class="nav-logo">AC · Syndicate</div>
+  <ul class="nav-links">
+    <li><a href="#story-section">Historia</a></li>
+    <li><a href="#districts-section">Distritos</a></li>
+    <li><a href="#features-section">Mecánicas</a></li>
+    <li><a href="#timeline-section">Cronología</a></li>
+  </ul>
+</nav>
+
+
+<!-- ============================================================
+     HISTORIA — LOS GEMELOS FRYE
+============================================================ -->
+<div id="story-section" data-section="story-section">
+  <div>
+    <p class="section-label">La Hermandad</p>
+    <h2 class="section-title">Los Gemelos Frye</h2>
+    <div class="gold-line"></div>
+    <p class="section-intro">
+      En el apogeo de la Revolución Industrial, dos hermanos Asesinos llegan a Londres
+      con un objetivo: liberar a la ciudad de las garras del Gran Maestro Templario
+      Crawford Starrick y devolver el poder al pueblo.
+    </p>
+  </div>
+
+  <div class="twin-cards">
+    <div class="twin-card">
+      <span class="twin-icon">🗡️</span>
+      <p class="twin-name">Jacob Frye</p>
+      <p class="twin-role">El Bravucón</p>
+      <p class="twin-desc">
+        Directo y combativo, Jacob lidera los Rooks y prefiere soluciones de fuerza bruta.
+        Su carisma arrastra multitudes y su instinto de lucha es inigualable.
+      </p>
+    </div>
+    <div class="twin-card">
+      <span class="twin-icon">🏹</span>
+      <p class="twin-name">Evie Frye</p>
+      <p class="twin-role">La Estratega</p>
+      <p class="twin-desc">
+        Maestra del sigilo y la planificación, Evie busca los Fragmentos del Edén.
+        Su inteligencia táctica y destreza en las sombras la convierten en la Asesina perfecta.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Separador decorativo -->
+<div class="section-sep"><div class="sep-diamond"></div></div>
+
+
+<!-- ============================================================
+     DISTRITOS DE LONDRES
+============================================================ -->
+<div id="districts-section" data-section="districts-section">
+
+  <div class="districts-header">
+    <p class="section-label">El Imperio Victoriano</p>
+    <h2 class="section-title">Los Distritos de Londres</h2>
+    <div class="gold-line" style="margin: 1.5rem auto;"></div>
+    <p class="districts-subtitle">
+      Siete barrios distintos que conforman el Londres de 1868. Cada uno controlado
+      por los Blighters de Starrick, esperando ser liberado por los Rooks.
+    </p>
+  </div>
+
+  <!-- MAPA ESQUEMÁTICO -->
+  <div class="map-container">
+    <p class="map-title">— Mapa Esquemático de Londres, 1868 —</p>
+
+    <svg class="london-map" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Mapa esquemático de Londres victoriano con los siete distritos">
+      <title>Mapa de Londres 1868</title>
+
+      <defs>
+        <marker id="marrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+          <path d="M2 1L8 5L2 9" fill="none" stroke="#c8973a" stroke-width="1.5"/>
+        </marker>
+      </defs>
+
+      <!-- Cuadrícula de fondo -->
+      <g stroke="rgba(200,151,58,0.05)" stroke-width="0.5">
+        <line x1="0"   y1="60"  x2="900" y2="60"/>
+        <line x1="0"   y1="120" x2="900" y2="120"/>
+        <line x1="0"   y1="180" x2="900" y2="180"/>
+        <line x1="0"   y1="240" x2="900" y2="240"/>
+        <line x1="0"   y1="300" x2="900" y2="300"/>
+        <line x1="0"   y1="360" x2="900" y2="360"/>
+        <line x1="100" y1="0"   x2="100" y2="420"/>
+        <line x1="200" y1="0"   x2="200" y2="420"/>
+        <line x1="300" y1="0"   x2="300" y2="420"/>
+        <line x1="400" y1="0"   x2="400" y2="420"/>
+        <line x1="500" y1="0"   x2="500" y2="420"/>
+        <line x1="600" y1="0"   x2="600" y2="420"/>
+        <line x1="700" y1="0"   x2="700" y2="420"/>
+        <line x1="800" y1="0"   x2="800" y2="420"/>
+      </g>
+
+      <!-- Río Támesis -->
+      <path d="M0 260 Q150 250 300 265 Q450 280 600 270 Q720 260 900 275"
+            fill="none" stroke="rgba(40,80,120,0.6)" stroke-width="18" stroke-linecap="round"/>
+      <path d="M0 260 Q150 250 300 265 Q450 280 600 270 Q720 260 900 275"
+            fill="none" stroke="rgba(60,110,160,0.3)" stroke-width="22" stroke-linecap="round"/>
+      <text x="450" y="272" fill="rgba(100,160,200,0.7)"
+            font-family="'Cinzel',serif" font-size="9" letter-spacing="6" text-anchor="middle">TÁMESIS</text>
+
+      <!-- Área Whitechapel -->
+      <rect x="700" y="120" width="180" height="130" rx="2"
+            fill="rgba(139,26,26,0.12)" stroke="rgba(139,26,26,0.4)" stroke-width="1" stroke-dasharray="4,3"/>
+      <!-- Área Southwark -->
+      <rect x="550" y="275" width="200" height="130" rx="2"
+            fill="rgba(139,26,26,0.10)" stroke="rgba(139,26,26,0.35)" stroke-width="1" stroke-dasharray="4,3"/>
+      <!-- Área The Strand -->
+      <rect x="360" y="150" width="180" height="110" rx="2"
+            fill="rgba(139,26,26,0.12)" stroke="rgba(139,26,26,0.4)" stroke-width="1" stroke-dasharray="4,3"/>
+      <!-- Área City of London -->
+      <rect x="550" y="120" width="145" height="145" rx="2"
+            fill="rgba(139,26,26,0.10)" stroke="rgba(139,26,26,0.35)" stroke-width="1" stroke-dasharray="4,3"/>
+      <!-- Área Westminster -->
+      <rect x="180" y="130" width="175" height="125" rx="2"
+            fill="rgba(139,26,26,0.12)" stroke="rgba(139,26,26,0.4)" stroke-width="1" stroke-dasharray="4,3"/>
+      <!-- Área Lambeth -->
+      <rect x="300" y="275" width="245" height="130" rx="2"
+            fill="rgba(139,26,26,0.10)" stroke="rgba(139,26,26,0.35)" stroke-width="1" stroke-dasharray="4,3"/>
+      <!-- Área Grosvenor -->
+      <rect x="60"  y="110" width="160" height="145" rx="2"
+            fill="rgba(139,26,26,0.08)" stroke="rgba(139,26,26,0.3)" stroke-width="1" stroke-dasharray="4,3"/>
+
+      <!-- Nombres de los distritos -->
+      <text x="789" y="185" fill="#c8973a" font-family="'Cinzel',serif" font-size="10" font-weight="600" text-anchor="middle">Whitechapel</text>
+      <text x="651" y="340" fill="#c8973a" font-family="'Cinzel',serif" font-size="10" font-weight="600" text-anchor="middle">Southwark</text>
+      <text x="449" y="205" fill="#c8973a" font-family="'Cinzel',serif" font-size="10" font-weight="600" text-anchor="middle">The Strand</text>
+      <text x="622" y="190" fill="#c8973a" font-family="'Cinzel',serif" font-size="10" font-weight="600" text-anchor="middle">City of London</text>
+      <text x="267" y="192" fill="#c8973a" font-family="'Cinzel',serif" font-size="10" font-weight="600" text-anchor="middle">Westminster</text>
+      <text x="422" y="340" fill="#c8973a" font-family="'Cinzel',serif" font-size="10" font-weight="600" text-anchor="middle">Lambeth</text>
+      <text x="140" y="183" fill="#c8973a" font-family="'Cinzel',serif" font-size="10" font-weight="600" text-anchor="middle">Grosvenor</text>
+
+      <!-- Landmark: Tower Bridge -->
+      <g>
+        <rect x="687" y="247" width="6" height="20" fill="#8a6020"/>
+        <rect x="707" y="247" width="6" height="20" fill="#8a6020"/>
+        <path d="M687 254 L713 254" stroke="#8a6020" stroke-width="1.5"/>
+        <path d="M690 247 L710 247 L710 240 L690 240 Z" fill="none" stroke="#8a6020" stroke-width="0.8"/>
+        <text x="700" y="275" fill="rgba(200,151,58,0.5)" font-family="'Cinzel',serif" font-size="6" text-anchor="middle">Tower Bridge</text>
+      </g>
+
+      <!-- Landmark: Big Ben -->
+      <g>
+        <rect x="237" y="215" width="8" height="35" fill="#8a6020"/>
+        <polygon points="237,215 241,205 245,215" fill="#8a6020"/>
+        <text x="241" y="260" fill="rgba(200,151,58,0.5)" font-family="'Cinzel',serif" font-size="6" text-anchor="middle">Big Ben</text>
+      </g>
+
+      <!-- Landmark: St Paul's -->
+      <g>
+        <rect x="595" y="205" width="12" height="20" fill="none" stroke="#8a6020" stroke-width="0.8"/>
+        <path d="M595 205 Q601 195 607 205" fill="none" stroke="#8a6020" stroke-width="0.8"/>
+        <text x="601" y="234" fill="rgba(200,151,58,0.5)" font-family="'Cinzel',serif" font-size="6" text-anchor="middle">St. Paul's</text>
+      </g>
+
+      <!-- Marcadores pulsantes de distrito -->
+      <circle class="map-dot" cx="789" cy="175" r="5" fill="none" stroke="#c8973a" stroke-width="1.2"/>
+      <circle cx="789" cy="175" r="2" fill="#c8973a"/>
+
+      <circle class="map-dot" cx="651" cy="330" r="5" fill="none" stroke="#c8973a" stroke-width="1.2"/>
+      <circle cx="651" cy="330" r="2" fill="#c8973a"/>
+
+      <circle class="map-dot" cx="449" cy="195" r="5" fill="none" stroke="#c8973a" stroke-width="1.2"/>
+      <circle cx="449" cy="195" r="2" fill="#c8973a"/>
+
+      <circle class="map-dot" cx="622" cy="180" r="5" fill="none" stroke="#c8973a" stroke-width="1.2"/>
+      <circle cx="622" cy="180" r="2" fill="#c8973a"/>
+
+      <circle class="map-dot" cx="267" cy="182" r="5" fill="none" stroke="#c8973a" stroke-width="1.2"/>
+      <circle cx="267" cy="182" r="2" fill="#c8973a"/>
+
+      <circle class="map-dot" cx="422" cy="330" r="5" fill="none" stroke="#c8973a" stroke-width="1.2"/>
+      <circle cx="422" cy="330" r="2" fill="#c8973a"/>
+
+      <circle class="map-dot" cx="140" cy="173" r="5" fill="none" stroke="#c8973a" stroke-width="1.2"/>
+      <circle cx="140" cy="173" r="2" fill="#c8973a"/>
+
+      <!-- Rosa de los vientos -->
+      <g transform="translate(845, 55)">
+        <circle r="22" fill="rgba(10,8,5,0.8)" stroke="rgba(200,151,58,0.3)" stroke-width="0.8"/>
+        <text y="-12" fill="#c8973a" font-family="'Cinzel',serif" font-size="9" text-anchor="middle" font-weight="600">N</text>
+        <text y="18"  fill="rgba(200,151,58,0.5)" font-family="'Cinzel',serif" font-size="7" text-anchor="middle">S</text>
+        <text x="14"  y="4" fill="rgba(200,151,58,0.5)" font-family="'Cinzel',serif" font-size="7" text-anchor="middle">E</text>
+        <text x="-14" y="4" fill="rgba(200,151,58,0.5)" font-family="'Cinzel',serif" font-size="7" text-anchor="middle">O</text>
+        <line y1="-8" y2="8"  stroke="rgba(200,151,58,0.4)" stroke-width="0.8"/>
+        <line x1="-8" x2="8" stroke="rgba(200,151,58,0.4)" stroke-width="0.8"/>
+        <polygon points="0,-14 2,-4 0,-6 -2,-4" fill="#c8973a"/>
+      </g>
+
+      <!-- Borde decorativo del mapa -->
+      <rect x="1" y="1"   width="898" height="418" fill="none" stroke="rgba(200,151,58,0.2)" stroke-width="1"/>
+      <rect x="6" y="6"   width="888" height="408" fill="none" stroke="rgba(200,151,58,0.08)" stroke-width="0.5"/>
+
+      <!-- Título del mapa -->
+      <text x="20" y="30" fill="#c8973a" font-family="'Cinzel',serif"
+            font-size="11" letter-spacing="3" font-weight="600">LONDINIUM MAGNA · MDCCCLXVIII</text>
+    </svg>
+  </div><!-- /map-container -->
+
+  <!-- TARJETAS DE DISTRITOS -->
+  <div class="districts-grid">
+
+    <!-- Distrito I: Whitechapel -->
+    <div class="district-card">
+      <div class="district-gang-icon gang-blighters">✦</div>
+      <p class="district-number">Distrito I</p>
+      <h3 class="district-name">Whitechapel</h3>
+      <p class="district-borough">East End · Londres Oriental</p>
+      <div class="district-separator"></div>
+      <p class="district-desc">
+        El distrito más oscuro y peligroso de Londres. Barrio obrero sofocado por la pobreza
+        y la criminalidad, sede de las fábricas más brutales de Starrick. Aquí comienza
+        la revolución de los Rooks.
+      </p>
+      <div class="district-tags">
+        <span class="tag">Inicio</span>
+        <span class="tag">Zona Industrial</span>
+        <span class="tag">Alta dificultad</span>
+      </div>
+    </div>
+
+    <!-- Distrito II: The Strand -->
+    <div class="district-card">
+      <div class="district-gang-icon gang-blighters">✦</div>
+      <p class="district-number">Distrito II</p>
+      <h3 class="district-name">The Strand</h3>
+      <p class="district-borough">Centro · West End</p>
+      <div class="district-separator"></div>
+      <p class="district-desc">
+        Corazón cultural de Londres. Teatros, cafés y la renombrada calle comercial que
+        conecta Westminster con la City. Aquí se mezclan la alta sociedad y la
+        delincuencia organizada.
+      </p>
+      <div class="district-tags">
+        <span class="tag">Cultural</span>
+        <span class="tag">Comercial</span>
+        <span class="tag">Teatros</span>
+      </div>
+    </div>
+
+    <!-- Distrito III: City of London -->
+    <div class="district-card">
+      <div class="district-gang-icon gang-blighters">✦</div>
+      <p class="district-number">Distrito III</p>
+      <h3 class="district-name">City of London</h3>
+      <p class="district-borough">Square Mile · Centro Financiero</p>
+      <div class="district-separator"></div>
+      <p class="district-desc">
+        La milla cuadrada: epicentro financiero del Imperio Británico. Sede de bancos,
+        la Bolsa de Valores y la Catedral de St. Paul. El dinero que alimenta el poder
+        de Starrick fluye aquí.
+      </p>
+      <div class="district-tags">
+        <span class="tag">Financiero</span>
+        <span class="tag">St. Paul's</span>
+        <span class="tag">Elite</span>
+      </div>
+    </div>
+
+    <!-- Distrito IV: Westminster -->
+    <div class="district-card">
+      <div class="district-gang-icon gang-blighters">✦</div>
+      <p class="district-number">Distrito IV</p>
+      <h3 class="district-name">Westminster</h3>
+      <p class="district-borough">West End · Poder Político</p>
+      <div class="district-separator"></div>
+      <p class="district-desc">
+        Sede del poder político del Imperio. El Palacio de Westminster, el Big Ben y
+        Buckingham comparten este distrito con los más influyentes políticos corruptos
+        bajo el yugo de los Templarios.
+      </p>
+      <div class="district-tags">
+        <span class="tag">Político</span>
+        <span class="tag">Big Ben</span>
+        <span class="tag">Palacio</span>
+      </div>
+    </div>
+
+    <!-- Distrito V: Southwark -->
+    <div class="district-card">
+      <div class="district-gang-icon gang-blighters">✦</div>
+      <p class="district-number">Distrito V</p>
+      <h3 class="district-name">Southwark</h3>
+      <p class="district-borough">South Bank · Ribera Sur</p>
+      <div class="district-separator"></div>
+      <p class="district-desc">
+        Al sur del Támesis, Southwark es un distrito de contrastes: mercados bulliciosos,
+        tabernas, el Globe Theatre y muelles repletos de actividad criminal templaria.
+        Acceso estratégico a Tower Bridge.
+      </p>
+      <div class="district-tags">
+        <span class="tag">Muelles</span>
+        <span class="tag">Mercados</span>
+        <span class="tag">Tower Bridge</span>
+      </div>
+    </div>
+
+    <!-- Distrito VI: Lambeth -->
+    <div class="district-card">
+      <div class="district-gang-icon gang-blighters">✦</div>
+      <p class="district-number">Distrito VI</p>
+      <h3 class="district-name">Lambeth</h3>
+      <p class="district-borough">South Bank · Barrio Obrero</p>
+      <div class="district-separator"></div>
+      <p class="district-desc">
+        Otro bastión de la clase trabajadora al sur del río. Lambeth alberga hospitales
+        militares, fábricas de cerámica y los canales que Starrick utiliza para
+        el contrabando de Éter Rojo.
+      </p>
+      <div class="district-tags">
+        <span class="tag">Industrial</span>
+        <span class="tag">Canales</span>
+        <span class="tag">Contrabando</span>
+      </div>
+    </div>
+
+    <!-- Distrito VII: Grosvenor -->
+    <div class="district-card">
+      <div class="district-gang-icon gang-blighters">✦</div>
+      <p class="district-number">Distrito VII</p>
+      <h3 class="district-name">Grosvenor</h3>
+      <p class="district-borough">Mayfair · Alta Sociedad</p>
+      <div class="district-separator"></div>
+      <p class="district-desc">
+        El distrito más opulento de Londres. Mansiones aristocráticas, Hyde Park y los
+        clubes privados de la nobleza. Sede de la red de influencia templaria más
+        sofisticada y difícil de penetrar.
+      </p>
+      <div class="district-tags">
+        <span class="tag">Aristocracia</span>
+        <span class="tag">Hyde Park</span>
+        <span class="tag">Mayfair</span>
+      </div>
+    </div>
+
+  </div><!-- /districts-grid -->
+</div><!-- /districts-section -->
+
+
+<!-- Separador -->
+<div class="section-sep" style="margin-top:2rem"><div class="sep-diamond"></div></div>
+
+
+<!-- ============================================================
+     MECÁNICAS DE JUEGO
+============================================================ -->
+<section id="features-section" data-section="features-section">
+  <p class="section-label">Mecánicas de Juego</p>
+  <h2 class="section-title">Domina el Crimen Victoriano</h2>
+  <div class="gold-line"></div>
+  <p class="section-intro">
+    Syndicate introduce sistemas inéditos en la saga que reflejan el caos organizado
+    del Londres industrial.
+  </p>
+
+  <div class="features-grid">
+    <div class="feature-item">
+      <span class="feature-icon">🪝</span>
+      <p class="feature-title">Gancho de Agarre</p>
+      <p class="feature-desc">
+        El Rope Launcher permite escalar edificios victorianos en segundos y crear
+        líneas de paso entre tejados, redefiniendo el parkour urbano de la saga.
+      </p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🚂</span>
+      <p class="feature-title">Trenes &amp; Carruajes</p>
+      <p class="feature-desc">
+        Viaja y lucha sobre trenes en movimiento. El vagón del tren sirve como
+        cuartel general móvil que mejoras a lo largo de la aventura.
+      </p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">⚔️</span>
+      <p class="feature-title">Bastón de Combate</p>
+      <p class="feature-desc">
+        Nuevo sistema de combate cuerpo a cuerpo con el bastón plegable. Cada gemelo
+        tiene movimientos únicos que reflejan su personalidad de combate.
+      </p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">👑</span>
+      <p class="feature-title">Los Rooks</p>
+      <p class="feature-desc">
+        Recluta y mejora tu propia banda callejera. Los Rooks toman el control de los
+        distritos al derrotar a los Blighters de Starrick y liberan a la ciudad.
+      </p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🏭</span>
+      <p class="feature-title">Liberación de Distritos</p>
+      <p class="feature-desc">
+        Cada barrio tiene un Cacique Jefe Blighter que debes eliminar. Completa misiones
+        de control de pandillas, secuestros y sabotajes para liberar el distrito.
+      </p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🎭</span>
+      <p class="feature-title">Personajes Históricos</p>
+      <p class="feature-desc">
+        Colabora con Darwin, Dickens, Marx, Florence Nightingale y la mismísima Reina
+        Victoria. La historia y la ficción se entrelazan magistralmente.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Separador -->
+<div class="section-sep"><div class="sep-diamond"></div></div>
+
+
+<!-- ============================================================
+     CRONOLOGÍA
+============================================================ -->
+<section id="timeline-section" data-section="timeline-section">
+  <p class="section-label">Cronología</p>
+  <h2 class="section-title">Historia del Credo</h2>
+  <div class="gold-line"></div>
+  <p class="section-intro">Los eventos que llevaron a los gemelos Frye al corazón del Imperio Británico.</p>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <p class="timeline-year">1853</p>
+      <p class="timeline-event">Nacimiento de Jacob y Evie Frye</p>
+      <p class="timeline-detail">
+        Los gemelos nacen en Crawley, hijos del Maestro Asesino Ethan Frye.
+        Desde pequeños son entrenados en las artes de la Hermandad.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <p class="timeline-year">1862</p>
+      <p class="timeline-event">Entrenamiento en la Hermandad</p>
+      <p class="timeline-detail">
+        Bajo la tutela de su padre en Crawley, los Frye aprenden sigilo, combate
+        y los principios del Credo Asesino. Sus caminos divergen desde el principio.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <p class="timeline-year">1865</p>
+      <p class="timeline-event">Conflicto con el Consejo de los Asesinos</p>
+      <p class="timeline-detail">
+        Jacob desafía las órdenes de su mentor Henry Raymond Green, convencido de que
+        la verdadera batalla está en las calles de Londres, no en la diplomacia.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <p class="timeline-year">1868</p>
+      <p class="timeline-event">Llegada a Londres</p>
+      <p class="timeline-detail">
+        Los gemelos llegan al corazón del Imperio Británico. Londres está bajo el
+        control absoluto del Gran Maestro Templario Crawford Starrick. Comienza la revolución.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <p class="timeline-year">1868</p>
+      <p class="timeline-event">Fundación de los Rooks</p>
+      <p class="timeline-detail">
+        Jacob funda la banda callejera de los Rooks para combatir a los Blighters,
+        la pandilla templaria que controla todos los distritos de Londres con
+        violencia e intimidación.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <p class="timeline-year">1868</p>
+      <p class="timeline-event">La Caída de Starrick</p>
+      <p class="timeline-detail">
+        Tras liberar uno a uno los siete distritos de Londres, los gemelos Frye se
+        infiltran en el Palacio de Buckingham durante un baile de gala para enfrentar
+        a Crawford Starrick.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer>
+  <p class="footer-logo">✦ AC · SYNDICATE ✦</p>
+  <p class="footer-text">
+    Assassin's Creed Syndicate — Ubisoft 2026<br>
+    Londres, Era Victoriana · 1868
+  </p>
+  <p class="footer-creed">
+    "Nada es Verdad. Todo está Permitido."<br>— El Credo Asesino
+  </p>
+</footer>
+
+
+<!-- Script principal (cargado al final del body) -->
+<script src="main.js"></script>
+
+</body>
+</html>
